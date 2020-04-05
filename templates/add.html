@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Memorium</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Добавить героя</h1>
+				<p>Загрузи фото и информацию о ветеране; если не хочешь писать много </br> текста просто расскажи свою историю на YouTube</p>
+			</header>
+
+		<!-- Signup Form -->
+		<ul style="list-style-type:none; padding: 0;">
+			<form id="signup-form" method="post" action="#">
+				<input type="text" name="text" id="text" placeholder="ФИО" />
+				<input type="text" name="text" id="text" placeholder="Ссылка на видео Youtube" />
+				<input type="text" name="text" id="text" placeholder="Полк и воинское звание" />
+				<input type="button" id="btn" value="Загрузить фото" onClick="javascript: window.open('http://localhost:8000/' + document.getElementById('text').value);" />
+			</form>
+			<li><a class="brk-btn" href="#">Добавить героя</a></li>
+			</br>
+		</ul>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; MorrisonTeam</li><li>Поделись в соцсетях: </li>
+				</ul>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-vk"><span class="label">VK</span></a></li>
+				</ul>
+				
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
